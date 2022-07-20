@@ -123,3 +123,7 @@ body {
     color:#aaa;
     margin-bottom:0;
 }
+
+input {
+    border-radius: 30px;
+}
