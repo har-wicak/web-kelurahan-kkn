@@ -1,17 +1,6 @@
 from flask import Flask, render_template, url_for
-# from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
-# db = SQLAlchemy(app)
-
-# class Kontak(db.Model):
-#     id = db.Column(db.Integer, primary_key=True)
-#     nama = db.Column(db.String(50), nullable = False)
-#     email = db.Column(db.String(50), nullable = False)
-#     text = db.Column(db.String(1000), nullable = False)
-
-
 
 @app.route('/')
 def index():
